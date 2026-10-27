@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kingofwordor.game",
+      "sha256_cert_fingerprints": [
+        "30:EE:3D:4C:F0:AA:F4:24:09:AE:BE:AE:52:6B:8B:95:18:4F:70:AB:58:59:68:A6:FB:CB:17:BD:29:21:68:E5",
+        "36:C4:99:E9:84:F9:77:C8:80:C3:7A:ED:56:16:D5:15:8F:49:05:46:83:FC:DC:D0:C3:F3:FD:C6:9C:92:C9:72"
+      ]
+    }
+  }
+]
