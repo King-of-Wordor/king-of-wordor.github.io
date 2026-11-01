@@ -23,7 +23,7 @@
        /.well-known/assetlinks.json). Loaded on Android, the game is not
        installed - or the app the link was tapped in kept it - so the page
        at once tries the game, and Google Play when it is not there. The
-       code stays on the page, to type into Duel → With friends. -->
+       code stays on the page, to type into Duel → Challenges. -->
   <main>
     <h1>King of Wordor</h1>
     <section>
@@ -34,7 +34,7 @@
         <a class="btn" id="open" href="#">Open in the game</a>
         <button class="btn ghost" id="copy" type="button">Copy the code</button>
       </div>
-      <p class="hint" id="t-steps">No game yet? Install it from Google Play, then enter the code in Duel → With friends.</p>
+      <p class="hint" id="t-steps">No game yet? Install it from Google Play, then enter the code in Duel → Challenges.</p>
       <p><a id="play" href="https://play.google.com/store/apps/details?id=com.kingofwordor.game">Google Play</a></p>
     </section>
   </main>
@@ -42,13 +42,13 @@
     (function () {
       var PLAY = 'https://play.google.com/store/apps/details?id=com.kingofwordor.game';
       var T = {
-        en: ['A friend challenges you', 'Play the very same round and see who does best.', 'Open in the game', 'Copy the code', 'Copied', 'No game yet? Install it from Google Play, then enter the code in Duel → With friends.', 'This link has no challenge code.'],
-        tr: ['Bir arkadaşın sana meydan okuyor', 'Aynı turu oyna, kimin daha iyi yaptığını gör.', 'Oyunda aç', 'Kodu kopyala', 'Kopyalandı', 'Oyun yüklü değil mi? Google Play\'den kur, sonra kodu Düello → Arkadaşla bölümüne yaz.', 'Bu bağlantıda meydan okuma kodu yok.'],
-        es: ['Un amigo te reta', 'Juega la misma ronda y mira quién lo hace mejor.', 'Abrir en el juego', 'Copiar el código', 'Copiado', '¿Aún no tienes el juego? Instálalo desde Google Play y escribe el código en Duelo → Con amigos.', 'Este enlace no tiene código de reto.'],
-        fr: ['Un ami vous défie', 'Jouez exactement la même manche et voyez qui fait le mieux.', 'Ouvrir dans le jeu', 'Copier le code', 'Copié', 'Pas encore le jeu ? Installez-le depuis Google Play, puis saisissez le code dans Duel → Entre amis.', 'Ce lien ne contient pas de code de défi.'],
-        nl: ['Een vriend daagt je uit', 'Speel precies dezelfde ronde en zie wie het best is.', 'Openen in het spel', 'Code kopiëren', 'Gekopieerd', 'Heb je het spel nog niet? Installeer het via Google Play en vul de code in bij Duel → Met vrienden.', 'Deze link bevat geen uitdagingscode.'],
-        'pt-BR': ['Um amigo desafia você', 'Jogue a mesma rodada e veja quem vai melhor.', 'Abrir no jogo', 'Copiar o código', 'Copiado', 'Ainda não tem o jogo? Instale pelo Google Play e digite o código em Duelo → Com amigos.', 'Este link não tem código de desafio.'],
-        da: ['En ven udfordrer dig', 'Spil præcis samme runde, og se, hvem der klarer sig bedst.', 'Åbn i spillet', 'Kopiér koden', 'Kopieret', 'Har du ikke spillet endnu? Installér det fra Google Play, og skriv koden under Duel → Med venner.', 'Dette link har ingen udfordringskode.']
+        en: ['A friend challenges you', 'Play the very same round and see who does best.', 'Open in the game', 'Copy the code', 'Copied', 'No game yet? Install it from Google Play, then enter the code in Duel → Challenges.', 'This link has no challenge code.'],
+        tr: ['Bir arkadaşın sana meydan okuyor', 'Aynı turu oyna, kimin daha iyi yaptığını gör.', 'Oyunda aç', 'Kodu kopyala', 'Kopyalandı', 'Oyun yüklü değil mi? Google Play\'den kur, sonra kodu Düello → Meydan okuma bölümüne yaz.', 'Bu bağlantıda meydan okuma kodu yok.'],
+        es: ['Un amigo te reta', 'Juega la misma ronda y mira quién lo hace mejor.', 'Abrir en el juego', 'Copiar el código', 'Copiado', '¿Aún no tienes el juego? Instálalo desde Google Play y escribe el código en Duelo → Retos.', 'Este enlace no tiene código de reto.'],
+        fr: ['Un ami vous défie', 'Jouez exactement la même manche et voyez qui fait le mieux.', 'Ouvrir dans le jeu', 'Copier le code', 'Copié', 'Pas encore le jeu ? Installez-le depuis Google Play, puis saisissez le code dans Duel → Défis.', 'Ce lien ne contient pas de code de défi.'],
+        nl: ['Een vriend daagt je uit', 'Speel precies dezelfde ronde en zie wie het best is.', 'Openen in het spel', 'Code kopiëren', 'Gekopieerd', 'Heb je het spel nog niet? Installeer het via Google Play en vul de code in bij Duel → Uitdagingen.', 'Deze link bevat geen uitdagingscode.'],
+        'pt-BR': ['Um amigo desafia você', 'Jogue a mesma rodada e veja quem vai melhor.', 'Abrir no jogo', 'Copiar o código', 'Copiado', 'Ainda não tem o jogo? Instale pelo Google Play e digite o código em Duelo → Desafios.', 'Este link não tem código de desafio.'],
+        da: ['En ven udfordrer dig', 'Spil præcis samme runde, og se, hvem der klarer sig bedst.', 'Åbn i spillet', 'Kopiér koden', 'Kopieret', 'Har du ikke spillet endnu? Installér det fra Google Play, og skriv koden under Duel → Udfordringer.', 'Dette link har ingen udfordringskode.']
       };
       var langs = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || 'en']);
       var lang = 'en';
