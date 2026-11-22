@@ -1,0 +1,22 @@
+de.kowd - the German word list of King of Wordor (RamTek)
+
+This word list is adapted from german-pos-dict 1.2.2 by LanguageTool
+(https://github.com/languagetool-org/german-pos-dict, commit
+c6dfcba71a6041e03d53c9993d65786495337416), whose data is an export from
+Morphy by Wolfgang Lezius (http://morphy.wolfganglezius.de/), extended by
+https://www.korrekturen.de/flexion.
+
+That work is licensed under the Creative Commons Attribution-ShareAlike 4.0
+International licence (CC BY-SA 4.0): https://creativecommons.org/licenses/by-sa/4.0/
+
+Changes made: word forms lowercased and folded (ß written ss), forms tagged as
+proper names (EIG) or abbreviations (ABK) left out, forms longer than 15 or
+shorter than 3 letters left out, and words seen in Tatoeba sentences added
+(written in lowercase mid-sentence at least 3 times, or compounds of listed
+words seen at least twice), minus a hand-checked list of English words. Word
+commonness comes from counts over Tatoeba sentences (https://tatoeba.org,
+CC BY 2.0 FR). The file is the game's compact sorted word-list format (KOWD).
+
+This adapted word list (de.kowd) is itself licensed under CC BY-SA 4.0. You may
+share and adapt it under the terms of that licence. The game's program code is
+not part of it and is not covered by this licence.
