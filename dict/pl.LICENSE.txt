@@ -1,0 +1,25 @@
+pl.kowd - the Polish word list of King of Wordor (RamTek)
+
+The word forms come from the Polish spelling dictionary of SJP.PL
+(https://sjp.pl/sl/en/), as packaged in LibreOffice dictionaries
+(https://github.com/LibreOffice/dictionaries, commit
+32b006a2c22a4ac7e8ed3f03346f7b3d85a970a4, pl_PL, generated 2026-05-11):
+"licensed under GPL 2, LGPL 2.1, MPL (Mozilla Public License) 1.1, Apache 2.0
+and Creative Commons Attribution 4.0 International". Used here under MPL 1.1.
+
+Which words are in use - so that every form of a word in use is kept, and
+only the base form of the rest - comes from Tatoeba sentences
+(https://tatoeba.org, CC BY 2.0 FR) and from wordfreq 3.1.1 by Robyn Speer
+(https://github.com/rspeer/wordfreq), whose word frequencies are
+"redistributed under a Creative Commons Attribution-ShareAlike 4.0 license"
+(https://creativecommons.org/licenses/by-sa/4.0/).
+
+Changes made: word forms generated from the dictionary's affix rules,
+lowercased, forms with capitals (names, abbreviations) left out, forms longer
+than 15 or shorter than 3 letters left out. The file is the game's compact
+sorted word-list format (KOWD).
+
+Because it is built with wordfreq's data, this word list (pl.kowd) is shared
+under CC BY-SA 4.0. You may share and adapt it under the terms of that
+licence. The game's program code is not part of it and is not covered by
+this licence.
