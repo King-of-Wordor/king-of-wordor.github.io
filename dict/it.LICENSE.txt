@@ -1,0 +1,26 @@
+it.kowd - the Italian word list of King of Wordor (RamTek)
+
+This word list is adapted from Morph-it! by Marco Baroni and Eros Zanchetta
+(https://docs.sslmit.unibo.it/doku.php?id=resources:morph-it), as shipped in
+LanguageTool (https://github.com/languagetool-org/languagetool, commit
+b5f37ca1c3e2c460381c932abe5de34387673883, file
+languagetool-language-modules/it/src/main/resources/org/languagetool/resource/it/italian.dict).
+
+LanguageTool's README for it: "The Italian data for part-of-speech tagging is
+taken from Morph-it!, licensed under the Creative Commons Attribution
+ShareAlike 2.0 License and the GNU Lesser General Public License (LGPL)".
+It is used here under the Creative Commons Attribution-ShareAlike 2.0
+licence (CC BY-SA 2.0): https://creativecommons.org/licenses/by-sa/2.0/
+
+Changes made: word forms lowercased and accents folded (città is written
+citta), forms tagged as proper names (NPR), abbreviations (ABL), symbols or
+punctuation left out, forms longer than 15 or shorter than 3 letters left out,
+and words seen in Tatoeba sentences added (written in lowercase mid-sentence
+at least 3 times, not counting the part before an apostrophe), minus a
+hand-checked list of English words. Word commonness comes from counts over
+Tatoeba sentences (https://tatoeba.org, CC BY 2.0 FR). The file is the game's
+compact sorted word-list format (KOWD).
+
+This adapted word list (it.kowd) is itself licensed under CC BY-SA 2.0. You may
+share and adapt it under the terms of that licence. The game's program code is
+not part of it and is not covered by this licence.
